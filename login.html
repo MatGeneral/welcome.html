@@ -8,16 +8,16 @@
     <form method="POST" action="https://request-inspector.glitch.me/">
 
         <label for="username">Username</label>
-        <input type="text" id="username" autofocus required>
+        <input type="text" id="username" autofocus="autofocus" required="required">
         <br>
         <label for="email">Enter Email</label>
-        <input type="text" id="email" required>
+        <input type="email" id="email" required="required">
         <br>
         <label for="password">Enter Password</label>
-        <input type="text" id="password" required>
+        <input type="password" id="password" required="required">
         <br>
-        <input type="checkbox" id="logged_in" name="logged_in" value="yes" checked>
         <label for="logged_in">Keep me logged in for 2 weeks</label>
+        <input type="checkbox" id="logged_in" name="logged_in" value="yes" checked="checked">
         <br>
 
         <button type="submit">Login</button>
