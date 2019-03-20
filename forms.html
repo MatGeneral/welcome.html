@@ -4,18 +4,31 @@
     <meta charset="UTF-8">
     <title>Register With Us</title>
 </head>
-<body>
+    <body>
+        <form method="POST" action="https://request-inspector.glitch.me/">
 
-<form action=""></form>
+            <label for="email">Email Address</label>
+                <input type="text" id="email" placeholder="Enter you email">
+            <br>
+                <label for="password">Enter Password</label>
+                <input id="password" name="password" placeholder="Enter your password">
+            <br>
+                <textarea name="bio" id="bio" cols="30" rows="10" placeholder="A little bit about yourself"></textarea>
+            <br>
+            <h3>How did you hear about us?</h3>
+            <label>
+                <input type="radio" name="q1" value="billboard">Billboard<br>
+                <input type="radio" name="q1" value="radio_advertisement">Radio Advertisement<br>
+                <input type="radio" name="q1" value="internet_advertisement">Internet Advertisement<br>
+                <input type="radio" name="q1" value="other">Other<br>
+            </label>
 
-<textarea name="email" id="email"></textarea>
 
 
 
 
 
 
-
-
-</body>
+        </form>
+    </body>
 </html>
