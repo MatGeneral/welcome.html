@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Property Search</title>
+</head>
+    <body>
+    <form method="GET" action="https://request-inspector.glitch.me/">
+        <label for="property_type">Property Type</label>
+        <input type="text" name="property_type" id="property_type">
+        <br>
+        <label for="square_footage">Square Footage</label>
+        <input type="text" name="square_footage" id="square_footage">
+        <br>
+        <label for="min_price">Minimum Price</label>
+        <input type="number" name="min_price" id="min_price">
+        <br>
+        <label for="max_price">Max Price</label>
+        <input type="number" name="max_price" id="max_price">
+        <br>
+        <label for="zipcode">Zipcode</label>
+        <input type="number" name="zipcode" id="zipcode">
+        <br>
+        <label for="num_bedrooms">Bedrooms</label>
+        <input type="number" name="num_bedrooms" id="num_bedrooms" min="1" max="4">
+        <br>
+        <label for="num_baths">Bathrooms</label>
+        <input type="number" name="num_baths" id="num_baths" min="1" max="3">
+        <br>
+
+        <button type="submit">Search Now</button>
+    </form>
+
+    </body>
+</html>
